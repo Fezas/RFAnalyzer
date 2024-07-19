@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string-array name="demodulation_modes">
-        <item>Demodulation off</item>
+        <item>Демодуляция выключена</item>
         <item>AM</item>
-        <item>narrow-band FM</item>
-        <item>wide-band FM</item>
+        <item>узкополосный FM</item>
+        <item>широкополосный FM</item>
         <item>LSB</item>
         <item>USB</item>
     </string-array>
     <string-array name="pref_sourceType_entries">
-        <item>File Source</item>
+        <item>Файл</item>
         <item>HackRF</item>
         <item>RTL-SDR</item>
     </string-array>
@@ -19,9 +19,9 @@
         <item>2</item>
     </string-array>
     <string-array name="pref_screenOrientation_entries">
-        <item>Auto</item>
-        <item>Landscape</item>
-        <item>Portrait</item>
+        <item>Авто</item>
+        <item>Альбомная</item>
+        <item>Книжная</item>
         <item>Reverse Landscape</item>
         <item>Reverse Portrait</item>
     </string-array>

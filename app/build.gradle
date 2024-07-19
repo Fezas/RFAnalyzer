@@ -17,10 +17,11 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
+    namespace 'com.mantz_it.rfanalyzer'
 }
 
 dependencies {
-    compile fileTree(include: ['*.jar'], dir: 'libs')
-    compile project(':hackrf_android')
-    compile 'com.android.support:appcompat-v7:23.3.0'
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    implementation project(':hackrf_android')
+    implementation 'com.android.support:appcompat-v7:23.3.0'
 }

@@ -57,9 +57,9 @@ public class SamplePacket {
 	 */
 	public SamplePacket(float[] re, float im[], long frequency, int sampleRate, int size) {
 		if(re.length != im.length)
-			throw new IllegalArgumentException("Arrays must be of the same length");
+			throw new IllegalArgumentException("Массивы должны быть одинаковой длины");
 		if(size > re.length)
-			throw new IllegalArgumentException("Size must be of the smaller or equal the array length");
+			throw new IllegalArgumentException("Размер должен быть меньше или равен длине массива");
 		this.re = re;
 		this.im = im;
 		this.frequency = frequency;
